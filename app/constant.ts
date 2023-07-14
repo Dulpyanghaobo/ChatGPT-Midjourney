@@ -1,4 +1,4 @@
-export const OWNER = "Licoy";
+export const OWNER = "Dulpyanghaobo";
 export const REPO = "ChatGPT-Midjourney";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
@@ -14,6 +14,7 @@ export enum Path {
   NewChat = "/new-chat",
   Masks = "/masks",
   Auth = "/auth",
+  Plugins = "/plugins",
 }
 
 export enum SlotID {
